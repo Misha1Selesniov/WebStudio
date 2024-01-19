@@ -304,3 +304,9 @@ letter-spacing: 0.42px;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
     }
+    .container {
+        width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+      }
+      
