@@ -10,9 +10,30 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3  {
     color: var(--primary-color);
 }
+h1, h2, h3, p, button, ul 
+{
+    margin: 0;
+    padding: 0;
+ }
+ ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.header{
+    padding: 24px 0 25px  ;
+}
+
 .logo{
     color: #2196F3;
 font-family: "Raleway",sans-serif;
@@ -25,6 +46,7 @@ letter-spacing: 0.78px;
 .webstudio-logo{
     color: #000;
 }
+
 .nav-list-link{
     color: #212121;
 font-family:"Roboto",sans-serif;
@@ -71,8 +93,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-letter-spacing: 0.28px;
-    
+letter-spacing: 0.28px;  
+}
+.hero{
+    padding: 200px 0 ;
 }
 .hero-title{
     color: #FFF;
@@ -94,6 +118,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.96px;
+}
+.features{
+    padding: 94px 0  ;
 }
 .features-list-item{
     color: #212121;
@@ -169,6 +196,9 @@ font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
+.work{
+    padding: 0 0 94px;
+}
 .work-title{
     color: #212121;
 text-align: center;
@@ -178,6 +208,9 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+}
+.team{
+    padding: 94px 50px 0 ;
 }
 .team-list-title{
     color: #212121;
@@ -259,6 +292,9 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
 }
+.footer{
+    padding: 94px 0;
+}
 .footer-webstudio-logo{
     color: #FFF;
     font-family: "Raleway",sans-serif;
@@ -304,9 +340,4 @@ letter-spacing: 0.42px;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
     }
-    .container {
-        width: 1200px;
-        padding: 0 15px;
-        margin: 0 auto;
-      }
-      
+   
